@@ -1,0 +1,5 @@
+db/**
+node_modules/**
+error.log
+info.log
+package-lock.json

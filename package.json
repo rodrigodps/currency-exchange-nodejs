@@ -1,0 +1,30 @@
+{
+  "name": "currency-exchange-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "scripts": {
+    "start": "NODE_ENV=dev node src/api.js",
+    "test": "mocha --exit test/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^10.0.0",
+    "@hapi/hapi": "^20.2.2",
+    "@hapi/inert": "^7.0.0",
+    "@hapi/vision": "^7.0.0",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "hapi-swagger": "^14.5.5",
+    "joi": "^17.6.0",
+    "sequelize": "^6.21.3",
+    "sqlite3": "^5.0.10",
+    "winston": "^3.8.1"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "nyc": "^15.1.0"
+  }
+}
